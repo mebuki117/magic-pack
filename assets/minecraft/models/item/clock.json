@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/clock"
+  },
+
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/heal"},
+    {"predicate": {"custom_model_data":2}, "model": "minecraft:item/recon"},
+    {"predicate": {"custom_model_data":3}, "model": "minecraft:item/thunder"},
+    {"predicate": {"custom_model_data":4}, "model": "minecraft:item/mine"},
+    {"predicate": {"custom_model_data":5}, "model": "minecraft:item/poison"},
+    {"predicate": {"custom_model_data":6}, "model": "minecraft:item/twister"}
+  ]
+}
